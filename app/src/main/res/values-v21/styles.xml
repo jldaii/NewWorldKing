@@ -1,0 +1,13 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="FruiteActivityTheme" parent="AppTheme">
+       <item name="android:statusBarColor">@android:color/transparent</item>
+
+    </style>
+
+
+
+
+
+</resources>

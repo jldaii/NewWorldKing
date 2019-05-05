@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/arrows_v"
+    >
+    <target
+        android:animation="@animator/oa_translate_x_ten"
+        android:name="right"/>
+    <target
+        android:animation="@animator/oa_translate_y_ten"
+        android:name="left"/>
+
+
+</animated-vector>

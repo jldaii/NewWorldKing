@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.newworld.king">
+
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <!-- 允许程序打开网络套接字 -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <!-- 允许程序设置内置sd卡的写权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <!-- 允许程序获取网络状态 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <!-- 允许程序访问WiFi网络信息 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <!-- 允许程序读写手机状态和身份 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <!-- 允许程序访问CellID或WiFi热点来获取粗略的位置 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
+
+
+    <application
+        android:name="com.newworld.king.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="06e441ded00f0625bd4d36df5731690b"/>
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".bird.chooser.DateTimeChooseActivity"/>
+        <activity android:name=".bird.chooser.SingleChooseActivity"/>
+        <activity android:name=".bird.chooser.MulChooseActivity"/>
+        <activity android:name=".bird.customView.RotatingRectMainActivity"/>
+        <activity android:name=".bird.AnimationAlpha.AlphaAnimationMainActivity"/>
+        <activity android:name=".bird.AnimationLayout.LayoutAnimActivity"/>
+        <activity android:name=".bird.AnimationLayout.ContentChangeAnimActivity"/>
+        <activity android:name=".bird.AnimationLayout.ListAnimTestActivity"/>
+        <activity android:name=".bird.AnimationLayout.ListAnimStudyActivity"/>
+        <activity android:name=".bird.touchAbout.MulTouchActivity"/>
+        <activity android:name=".bird.XmlDataAnalysis.PullAnalysTestActivity"/>
+        <activity android:name=".bird.AnimationVector.VectorAminByXmlActivity"/>
+        <activity android:name=".bird.asyncTaskDemo.AsyncTaskImageDemoActivity"/>
+        <activity android:name=".bird.asyncTaskDemo.AsyncTaskProgressBarDemoActivity"/>
+        <activity android:name=".bird.AnimationBezier.BezierStudyActivity"/>
+        <activity android:name=".bird.AnimationBezier.DrawPadActivity"/>
+        <activity android:name=".bird.AnimationBezier.PathBezierActivity"/>
+        <activity android:name=".bird.AnimationBezier.PathMorphingActivity"/>
+        <activity android:name=".bird.AnimationBezier.SecondBezierActivity"/>
+        <activity android:name=".bird.AnimationBezier.ThirdBezierActivity"/>
+        <activity android:name=".bird.AnimationBezier.WaveActivity"/>
+        <activity android:name=".bird.RxJavaFirstDemo.RxJavaFirstDemoActivity"/>
+        <activity android:name=".bird.ListViewStudy.ListViewSimpleActivity"/>
+        <activity android:name=".bird.ListViewStudy.ListViewComplexEntryActivity"/>
+        <activity android:name=".bird.ListViewStudy.ListViewShowSqliteActivity"/>
+        <activity android:name=".bird.MultiThreadDownload.MultiThreadDownloadActivity"/>
+        <activity android:name=".bird.MultiThreadDownload.DownloadManagerTestActivity"/>
+        <activity android:name=".bird.MaterialDesign.MaterialDesignMainActivity"/>
+        <activity
+            android:name=".bird.MaterialDesign.FruitActivity"
+            android:theme="@style/FruiteActivityTheme"/>
+        <activity android:name=".bird.QRCode.QrCodeByZxingActivity"/>
+        <activity android:name=".bird.floatbubbleview.FloatBubbleViewActivity"/>
+        <activity android:name=".bird.amap.AMapeSimpleActivity"/>
+        <activity android:name=".bird.customView.BasicsCoustomViewActivity"/>
+        <activity android:name=".coffee.coustom.coustomviewshow.CoustomViewShowActivity"/>
+        <activity android:name=".bird.eventbus.EventBusActivity"/>
+        <activity android:name=".bird.eventbus.EventBusSendActivity"/>
+        <activity android:name=".coffee.shangguigu.ShangGuiGuMainActivity"/>
+        <activity android:name=".bird.okhttp.OkHttpActivity"/>
+        <activity android:name=".bird.glide.GlideMainActivity"/>
+        <activity android:name=".bird.glide.GlideBaseActivity"/>
+        <activity android:name=".bird.glide.GlideRecyclerViewActivity"/>
+        <activity android:name=".bird.glide.GlideTranfromationsActivity"/>
+        <activity android:name=".bird.Fresco.FrescoMainActivity">
+        </activity>
+        <activity android:name=".base.ToolbarBaseActivity">
+        </activity>
+        <activity android:name=".bird.Fresco.FrescoAutoSizeActivity">
+        </activity>
+        <activity android:name=".bird.Fresco.FrescoCircleAndCornerActivity">
+        </activity>
+        <activity android:name=".bird.Fresco.FrescoCropActivity">
+        </activity>
+        <activity android:name=".bird.Fresco.FrescoGifAcitivity">
+        </activity>
+        <activity android:name=".bird.Fresco.FrescoJpegActivity">
+        </activity>
+        <activity android:name=".bird.Fresco.FrescoListenerActivity">
+        </activity>
+        <activity android:name=".bird.Fresco.FrescoModifyActivity">
+        </activity>
+        <activity android:name=".bird.Fresco.FrescoMultiActivity">
+        </activity>
+        <activity android:name=".bird.Fresco.FrescoResizeActivity">
+        </activity>
+        <activity android:name=".bird.Fresco.FrescoSpimgActivity">
+        </activity>
+
+    </application>
+
+</manifest>

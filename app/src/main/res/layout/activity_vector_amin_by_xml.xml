@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        tools:context="com.animater.iooc.MainActivity">
+
+        <ImageView
+            android:onClick="anim"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/arrows_av"
+            />
+        <ImageView
+            android:onClick="anim"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/square_av"
+            />
+        <ImageView
+            android:onClick="anim"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/searchbar_av"
+            />
+        <ImageView
+            android:onClick="anim"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/triangles_av"
+            />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="1000dp"
+            android:layout_height="100dp"
+            android:onClick="anim"
+            app:srcCompat="@drawable/cnflag_av" />
+
+        <ImageView
+            android:onClick="anim"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/fivestar_av"
+            />
+
+        <ImageView
+            android:onClick="anim"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/finish_av"
+            />
+
+
+    </LinearLayout>
+</ScrollView>

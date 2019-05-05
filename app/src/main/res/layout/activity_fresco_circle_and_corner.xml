@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    >
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:fitsSystemWindows="true"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        >
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:layout_collapseMode="pin"
+            >
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/sdv_fresco_circleandcorner"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            fresco:placeholderImage="@drawable/monkeyking" />
+
+        <Button
+            android:id="@+id/bt_fresco_circle"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            style="@style/ButtonStyle"
+            android:layout_gravity="center"
+            android:text="设置圆形图片" />
+
+        <Button
+            android:id="@+id/bt_fresco_corner"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            style="@style/ButtonStyle"
+            android:layout_gravity="center"
+            android:text="设置圆角图片" />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/square_v"
+    >
+    <target
+        android:animation="@animator/oa_fill_color"
+        android:name="square"/>
+
+    <target
+        android:animation="@animator/oa_translate_x_ten"
+        android:name="square"/>
+
+
+</animated-vector>

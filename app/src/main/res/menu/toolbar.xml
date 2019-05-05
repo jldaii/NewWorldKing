@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--指定图标-->
+    <!--指定按钮文字-->
+    <!--指定按钮显示位置-->
+    <item
+        android:id="@+id/backup"
+        android:icon="@drawable/ic_backup"
+        android:title="Backup"
+        app:showAsAction="always"
+    />
+
+    <item
+        android:id="@+id/delete"
+        android:icon="@drawable/ic_delete"
+        android:title="Backup"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/setting"
+        android:icon="@drawable/ic_settings"
+        android:title="Backup"
+        app:showAsAction="always"
+        />
+
+
+</menu>

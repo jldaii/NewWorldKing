@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context="com.newworld.king.bird.AnimationAlpha.AlphaAnimationMainActivity">
+
+
+        <Button
+            android:id="@+id/btn_Anima"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            style="@style/ButtonStyle"
+            android:text="透明动画效果"
+            />
+
+
+        <Button
+            android:id="@+id/btn_RotateMe"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            style="@style/ButtonStyle"
+            android:text="旋转动画效果"
+            />
+
+        <Button
+            android:id="@+id/btn_traslateMe"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            style="@style/ButtonStyle"
+            android:text="移动动画效果"
+            />
+
+        <Button
+            android:id="@+id/btn_scaleMe"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            style="@style/ButtonStyle"
+            android:text="缩放动画效果"
+            />
+
+        <Button
+            android:id="@+id/btn_AnimaMe"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            style="@style/ButtonStyle"
+            android:text="混合动画效果"
+            />
+
+        <Button
+            android:id="@+id/btn_AnimaMeToo"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            style="@style/ButtonStyle"
+            android:text="自定义动画效果"
+            />
+
+
+
+    </LinearLayout>

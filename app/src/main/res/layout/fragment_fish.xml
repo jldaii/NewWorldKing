@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="?attr/actionBarSize"
+    tools:context="com.newworld.king.ui.fragment.FishFragment"
+    android:id="@+id/frame_fish"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <Button
+        android:id="@+id/text_fish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|center_vertical"
+        android:background="@drawable/btn_count_down"
+        android:text="fish" />
+
+    <Button
+        android:layout_marginTop="50dp"
+        android:id="@+id/text_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|center_vertical"
+        android:background="@drawable/btn_count_down"
+        android:text="time" />
+
+</LinearLayout>
